@@ -69,8 +69,9 @@ body{
     transition: 0.2s;
 }
 #replace{
-    position: absolute;
-    opacity: -1;
+    position: relative;
+    display: none;
+    /* opacity: -1; */
 }
 .top .right  a:hover #replace{
     opacity: 1;
@@ -136,8 +137,16 @@ body{
     width: auto;
     margin-left: 3px;
 }
+
+.account-box #prev{
+    position: relative;
+}
+.account-box:hover #prev{
+    display: none;
+}
 .account-box:hover #replace{
-   opacity: 1;
+    display: flex;
+   /* opacity: 1; */
     transition: 0.2s; 
 }
 .account-box:hover p{
@@ -185,4 +194,29 @@ body{
 #mini-box-button{
     
 }
-
+.box-container a{
+    text-decoration: none;
+    color: black;
+}
+.contact-box{
+    /* border: 1px solid red; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.contact-box img{
+    width: 45px;
+    height: 45px;
+    margin-right: 5px;
+    margin-left: 3px;
+}
+.number-box{
+    /* border: 1px solid red; */
+    height:auto;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+#last{
+    margin-bottom: 5px;
+}
