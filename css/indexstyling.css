@@ -3,6 +3,7 @@
 }
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: ;
 }
 .section1{
     border: 1px solid red;
@@ -123,7 +124,7 @@ body{
     background-color: rgb(255, 196, 0);
     width: 80px;
     border-radius: 5px;
-    margin-right: 5px;
+    margin-right: 35px;
 }
 #search-button:hover{
     background-color:rgb(232, 184, 26);
@@ -143,6 +144,7 @@ body{
 }
 .account-box:hover #prev{
     display: none;
+    transition: 0.2s; 
 }
 .account-box:hover #replace{
     display: flex;
@@ -150,6 +152,9 @@ body{
     transition: 0.2s; 
 }
 .account-box:hover p{
+    color: rgb(255, 196, 0);
+}
+.account-box:hover #grey{
     color: rgb(255, 196, 0);
 }
 .box-container{
@@ -210,6 +215,10 @@ body{
     margin-right: 5px;
     margin-left: 3px;
 }
+.contact-box:hover{
+    background-color: rgba(235, 230, 230, 0.737);
+    box-shadow: 0px 0px 2px 0px rgb(183, 181, 181);
+}
 .number-box{
     /* border: 1px solid red; */
     height:auto;
@@ -219,4 +228,15 @@ body{
 }
 #last{
     margin-bottom: 5px;
+}
+#grey{
+    color: rgb(180, 178, 178);
+}
+
+#second-container{
+    margin-top: 10px;
+}
+#second-container #mini-box{
+    width: 165px;
+    height: 150px;
 }
