@@ -1,0 +1,120 @@
+.box-container{
+    border: 1px solid red;
+    height: auto;
+    width: 70%;
+    display: flex;
+    padding: 10px;
+    /* padding-top: 10px; */
+    column-gap: 15px;
+}
+.box{
+    /* border: 1px solid red; */
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column; 
+    row-gap: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 2px rgb(220, 219, 219);
+}
+#second-container .box{
+    width:auto;
+    height: auto; 
+    padding: 0;
+    box-shadow: none;
+}
+#second-container .box:hover{
+   box-shadow: 1px 1px 2px 2px rgb(220, 219, 219);
+   transition: 0.2s ease-in-out;
+   translate: 0px -5px; 
+}
+#items-box{
+    margin-top: 20px;
+    height: auto;
+    width: auto ;
+    max-width: 72%;
+    padding: 0;
+    border-top-left-radius:5px ;
+    border-top-right-radius: 5px;
+    flex-direction: column;
+    background-color: white;
+}
+.header{
+    border: 1px solid black;
+    width: auto;
+    height: 40px;
+    background-color: rgb(253, 86, 52);
+    border-top-left-radius:5px ;
+    border-top-right-radius: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.image-n-text{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.product-box{
+    /* border: 1px solid red; */
+    padding-top:5px;
+    display: flex;
+    column-gap: 5px;
+    margin: 5px;
+    overflow-x: auto;
+}
+#timer{
+    position: relative;
+    right: 50px;
+}
+.product-box .box{
+    height: 300px;
+    width: 175px;
+    padding: 0;
+    position: relative;
+    row-gap: 5px;
+    box-shadow: none;
+}
+.product-box .box:hover{
+    box-shadow: 0px 0px 6px 2px rgb(184, 183, 183);
+    transform:translateY(-5px);
+    transition: 0.2s ease-in-out;
+}
+.product-box .box img{
+    width: 175px;
+    height: 60%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.product-box .box p{
+    color: rgb(253, 152, 29);
+    background-color:rgb(255, 227, 193) ;
+    width: fit-content;
+    padding: 2px;
+    position: absolute;
+    right: 0;
+    top: 8px;
+}
+.prod-info-box{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.prod-info-box  span{
+    color: rgb(94, 92, 92);
+    font-size: 14.5px;
+}
+.prod-info-box h5{
+    color: rgb(47, 46, 46);
+    font-size: 17px;
+}
+.prod-info-box  s{
+    color: rgb(94, 92, 92);
+    font-size: 12px;
+}

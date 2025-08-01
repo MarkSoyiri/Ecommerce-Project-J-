@@ -5,36 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SOSCOM</title>
     <link rel="stylesheet" href="/css/indexstyling.css">
+    <link rel="stylesheet" href="/css/productstyling.css">
 </head>
 <body>
     <section class="section1">
         <div class="very-top">
 
         </div> 
-        <div class="top">
-            <a id="L-link"href="">
-                <img src="/images/orangestar.png" width="20px" height="20px">
-                <p>sell on  Soscom</p>
-            </a>
+        <div class="box-container">
+            <div class="top">
+                <a id="L-link"href="">
+                    <img src="/images/orangestar.png" width="20px" height="20px">
+                    <p>sell on  Soscom</p>
+                </a>
 
-            <div class="right">
-                <img src="/images/logonobg.png" width="50px" height="50px">
-                <p>SOSCOM</p>
+                <div class="right">
+                    <img src="/images/logonobg.png" width="50px" height="50px">
+                    <p>SOSCOM</p>
 
-            
-                    <div class="account-box">
-                        <img id="prev" src="/images/paygrey.png" alt="account" width="25px" height="25px">
-                        <img id="replace" src="/images/shieldonb.png" width="25px" height="25px">
-                        <p id="grey">PAY</p>
-                    </div>
-            
-                    <div class="account-box">
-                        <img id="prev" src="/images/logisticsgrey.png" alt="account" width="25px" height="25px">
-                        <img id="replace" src="/images/logisticsorange.png" width="25px" height="25px">
-                        <p id="grey">LOGISTICS</p>
-                    </div>
-            </div>
-        </div> 
+                
+                        <div class="account-box">
+                            <img id="prev" src="/images/paygrey.png" alt="account" width="25px" height="25px">
+                            <img id="replace" src="/images/shieldonb.png" width="25px" height="25px">
+                            <p id="grey">PAY</p>
+                        </div>
+                
+                        <div class="account-box">
+                            <img id="prev" src="/images/logisticsgrey.png" alt="account" width="25px" height="25px">
+                            <img id="replace" src="/images/logisticsorange.png" width="25px" height="25px">
+                            <p id="grey">LOGISTICS</p>
+                        </div>
+                </div>
+            </div> 
+        </div>
         
         <div class="nav">
             <img class="logo" src="/images/logonobg.png" width="90px" height="70px">
@@ -67,7 +70,7 @@
         </div>
                         <!-- END OF NAV -->
         
-        <div class="box-container">
+        <div class="box-container" id="first-container">
             <div class="box">
                 <a href="">
                     <div class="account-box">
@@ -155,9 +158,22 @@
                 </a>
             </div>
 
-            <div class="box" id="middle-box">
-
+            <div class="slider">
+                <div class="slides">
+                    <a href=""><img class="slide" src="/images/sliderpic1.png" alt=""></a>
+                    <a href=""><img class="slide" src="/images/sliderpic2.jpg" alt=""></a>
+                    <a href=""><img class="slide" src="/images/sliderpic3.png" alt=""></a>
+                    <a href=""><img class="slide" src="/images/sliderpic4.jpg" alt=""></a>
+                    <a href=""><img class="slide" src="/images/sliderpic5.png" alt=""></a>
+                </div>
+                    <div class="button-space" id="left">
+                    <button class="prev" onclick="prevSlide()">&#10094</button>
+                    </div>
+                    <div class="button-space" id="right">
+                    <button class="next" onclick="nextSlide()">&#10095</button>
+                    </div>
             </div>
+            
 
             <div class="right-box">
                 <div class="box" id="mini-box">
@@ -201,27 +217,151 @@
         </div>
 
         <div class="box-container" id="second-container">
-            <div class="box" id="mini-box">
-                <img src="/images/gear up.gif" alt="gear up" style="border-radius: 5px;" height="100%">
+            <div class="box" id="box1">
+                <a href="">
+                    <img src="/images/gear up.gif" alt="gear up" style="border-radius: 5px;" width="190px" height="100%">
+                </a>
             </div>
-            <div class="box" id="mini-box">
-                <img src="/images/gear up.gif" alt="gear up" style="border-radius: 5px;" height="100%">
+            <div class="box" id="box2">
+                <a href="">
+                    <img src="/images/savebignow.png" alt="gear up" style="border-radius: 5px;" width="160px" height="100%">
+                </a>
             </div>
-            <div class="box" id="mini-box">
-                <img src="/images/gear up.gif" alt="gear up" style="border-radius: 5px;" height="100%">
+            <div class="box" id="box3">
+                <a href="">
+                    <img src="/images/donkomi.png" alt="gear up" style="border-radius: 5px;" width="160px" height="100%">
+                </a>
             </div>
-            <div class="box" id="mini-box">
-                <img src="/images/gear up.gif" alt="gear up" style="border-radius: 5px;" height="100%">
+            <div class="box" id="box4">
+                <a href="">
+                    <img src="/images/trendingnow.png" alt="gear up" style="border-radius: 5px;" width="160px"  height="100%">
+                </a>
             </div>
-            <div class="box" id="mini-box">
-                <img src="/images/gear up.gif" alt="gear up" style="border-radius: 5px;" height="100%">
+            <div class="box" id="box5">
+                <a href="">
+                    <img src="/images/calltoorder.png" alt="gear up" style="border-radius: 5px;" width="160px" height="100%">
+                </a>
             </div>
-            <div class="box" id="mini-box">
-                <img src="/images/gear up.gif" alt="gear up" style="border-radius: 5px;" height="100%">
+            <div class="box" id="box6">
+                <a href="">
+                    <img src="/images/jumpforce.gif" alt="gear up" style="border-radius: 5px;" width="160px" height="100%">
+                </a>
             </div>  
 
         </div>
+
+        <div class="box-container" id="items-box">
+            <div class="header">
+                <div class="image-n-text">
+                    <img src="/images/flashsales.png" alt="flashsales" style="margin-left: 10px; margin-right: 5px;" width="30px" height="30px">
+                    <h3>Flash Sales</h3>
+                </div>
+                <div class="image-n-text" id="timer">
+                    <h4 style="font-weight: 500;">Time left: 00h:00m:00s</h4>
+                </div>
+
+                <a href="" style="">
+                    <div class="image-n-text">
+                        <p style="font-size: 15px;margin-right: 5px;">See All</p>
+                        <p style="font-size: 13px;">&#10095</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="product-box">
+                <a href="">
+                    <div class="box" id="box6">
+                        <p>-32%</p>
+                        <img src="/images/shirt.jpg" alt="gear up">
+                        <div class="prod-info-box">
+                        <span>TOUPHY 2 PCS Short Sl...</span>
+                        <h5>GHC 60.50</h5>
+                        <s>GH₵ 69.19 - GH₵ 71.94</s>
+                        </div>
+                    </div> 
+                </a>
+                <a href="">
+                    <div class="box" id="box6">
+                        <p>-32%</p>
+                        <img src="/images/shirt.jpg" alt="gear up" >
+                        <div class="prod-info-box">
+                        <span>TOUPHY 2 PCS Short Sl...</span>
+                        <h5>GHC 60.50</h5>
+                        <s>GH₵ 69.19 - GH₵ 71.94</s>
+                        </div>
+                    </div> 
+                </a> 
+                <a href="">
+                    <div class="box" id="box6">
+                        <p>-32%</p>
+                        <img src="/images/shirt.jpg" >
+                        <div class="prod-info-box">
+                        <span>TOUPHY 2 PCS Short Sl...</span>
+                        <h5>GHC 60.50</h5>
+                        <s>GH₵ 69.19 - GH₵ 71.94</s>
+                        </div>
+                    </div> 
+                </a>
+                <a href="">
+                    <div class="box" id="box6">
+                        <p>-32%</p>
+                        <img src="/images/shirt.jpg" >
+                        <div class="prod-info-box">
+                        <span>TOUPHY 2 PCS Short Sl...</span>
+                        <h5>GHC 60.50</h5>
+                        <s>GH₵ 69.19 - GH₵ 71.94</s>
+                        </div>
+                    </div> 
+                </a> 
+                <a href="">
+                    <div class="box" id="box6">
+                        <p>-32%</p>
+                        <img src="/images/shirt.jpg" >
+                        <div class="prod-info-box">
+                        <span>TOUPHY 2 PCS Short Sl...</span>
+                        <h5>GHC 60.50</h5>
+                        <s>GH₵ 69.19 - GH₵ 71.94</s>
+                        </div>
+                    </div> 
+                </a> 
+                <a href="">
+                    <div class="box" id="box6">
+                        <p>-32%</p>
+                        <img src="/images/shirt.jpg" >
+                        <div class="prod-info-box">
+                        <span>TOUPHY 2 PCS Short Sl...</span>
+                        <h5>GHC 60.50</h5>
+                        <s>GH₵ 69.19 - GH₵ 71.94</s>
+                        </div>
+                    </div> 
+                </a>
+                <a href="">
+                    <div class="box" id="box6">
+                        <p>-32%</p>
+                        <img src="/images/shirt.jpg" >
+                        <div class="prod-info-box">
+                        <span>TOUPHY 2 PCS Short Sl...</span>
+                        <h5>GHC 60.50</h5>
+                        <s>GH₵ 69.19 - GH₵ 71.94</s>
+                        </div>
+                    </div> 
+                </a>
+                <a href="">
+                    <div class="box" id="box6">
+                        <p>-32%</p>
+                        <img src="/images/shirt.jpg" >
+                        <div class="prod-info-box">
+                        <span>TOUPHY 2 PCS Short Sl...</span>
+                        <h5>GHC 60.50</h5>
+                        <s>GH₵ 69.19 - GH₵ 71.94</s>
+                        </div>
+                    </div> 
+                </a> 
+            </div>
+        </div>
     </section>
     
+
+    <script src="/js/index.js"></script>
 </body>
 </html>
