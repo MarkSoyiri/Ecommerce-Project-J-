@@ -29,3 +29,23 @@ function nextSlide(){
     slideIndex++;
     showSlide(slideIndex);
 }
+
+// PRODUCT SLIDER
+
+const productsBox = [...document.querySelectorAll('.product-box')];
+const previousBtn = [...document.querySelectorAll('.previous-btn')];
+const nextBtn = [...document.querySelectorAll('.next-btn')];
+
+productsBox.forEach((items,i)=>{
+    let containerDimensions = items.getBoundingClientRect();
+    let containerWidth = containerDimensions.width;
+    nextBtn[i].addEventListener('click',()=>{
+        items.scrollLeft += containerWidth;
+    })
+
+    previousBtn[i].addEventListener('click',()=>{
+        items.scrollLeft -= containerWidth;
+        
+    })
+    
+})

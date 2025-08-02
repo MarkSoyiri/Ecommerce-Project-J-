@@ -35,12 +35,14 @@
     margin-top: 20px;
     height: auto;
     width: auto ;
-    max-width: 72%;
+    max-width: 71.3%;
     padding: 0;
     border-top-left-radius:5px ;
     border-top-right-radius: 5px;
     flex-direction: column;
     background-color: white;
+    margin-bottom: 10px;
+    position: relative;
 }
 .header{
     border: 1px solid black;
@@ -68,7 +70,9 @@
     display: flex;
     column-gap: 5px;
     margin: 5px;
-    overflow-x: auto;
+    position: relative;
+    overflow:hidden;
+    max-width: 100%;
 }
 #timer{
     position: relative;
@@ -117,4 +121,75 @@
 .prod-info-box  s{
     color: rgb(94, 92, 92);
     font-size: 12px;
+}
+#items-box button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    padding: 8px;
+    width: 40px;
+    font-size: large;
+    border: none;
+    background-color: rgba(47, 46, 46, 0.768);
+    color: white;
+    display: none;
+    
+    
+    
+}
+.previous-btn{
+    left: 0;
+}
+.next-btn{
+    right: -0; 
+
+}
+#items-box button:hover{
+    background-color: rgba(113, 112, 112, 0.926);
+    transition: 0.1s;
+}
+#items-box:hover button{
+    display: flex;
+    justify-content: center;
+}
+
+/* SECOND PRODUCT BOX */
+#normal-header{
+    background-color: rgb(141, 239, 248);
+    
+}
+#normal-header .image-n-text{
+    color: black;
+}
+#flex-container{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 16px;
+}
+#flex-container #mini-box{
+    width: 165px;
+    height: 150px;
+}
+#flex-container .box{
+    width:auto;
+    height: auto; 
+    padding: 0;
+    box-shadow: none;
+}
+#flex-container .box:hover{
+   box-shadow: 1px 1px 2px 2px rgb(220, 219, 219);
+   transition: 0.2s ease-in-out;
+   translate: 0px -5px; 
+}
+#bunch-products{
+ flex-wrap: wrap;   
+}
+#second-list-header{
+    background-color: rgb(86, 138, 169);
+}
+#bunch-products .box{
+    width: 173px;
 }
