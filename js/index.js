@@ -41,11 +41,14 @@ productsBox.forEach((items,i)=>{
     let containerWidth = containerDimensions.width;
     nextBtn[i].addEventListener('click',()=>{
         items.scrollLeft += containerWidth;
+        
     })
 
     previousBtn[i].addEventListener('click',()=>{
         items.scrollLeft -= containerWidth;
         
+        
     })
     
 })
+
