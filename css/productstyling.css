@@ -1,5 +1,5 @@
 .box-container{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: auto;
     width: 70%;
     display: flex;
@@ -46,7 +46,7 @@
     position: relative;
 }
 .header{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: auto;
     height: 40px;
     background-color: rgb(253, 86, 52);
@@ -59,7 +59,7 @@
     position: relative;
 }
 .image-n-text{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     align-items: center;
     color: white;
