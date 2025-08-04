@@ -52,3 +52,11 @@ productsBox.forEach((items,i)=>{
     
 })
 
+        // ACCOUNT-DROPDOWN MENU
+
+let accountMenu = document.getElementById("account-menu");
+let accountB = document.getElementById("account_button");
+
+accountMenu.addEventListener("click",function(){
+    accountMenu.classList.toggle("show-account-menu");
+})

@@ -1,0 +1,75 @@
+#pp-first-container{
+    background-color: ;
+    height: 400px;
+    padding: 0px;
+}
+#pp-products-info{
+    padding: 10px;
+    max-width: 90%;
+    width: 90%;
+}
+#pp-DandV{
+    width: 280px;
+}
+.product-preview{
+    border: 1px solid red;
+    width: 250px;
+    height: 300px;
+}
+.product-preview img{
+    width: 100%;
+}
+.inside-product-info{
+    border: 1px solid red;
+    width: 80%;
+    max-width: 80%;
+}
+.product-info-row{
+    border: 1px solid red;
+    height: auto;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+.product-info-row #store-link{
+    border: 1px solid red;
+    width: fit-content;
+    height: fit-content;
+    margin-right: 20px;
+    padding: 2px;
+    background-color: rgb(72, 153, 216);
+    color: white;
+    display: flex;
+    align-self: center;
+    border-radius: 5px;
+}
+.product-info-row s{
+    color: rgb(133, 129, 129);
+
+}
+.product-info-row p{
+    background-color: rgb(248, 222, 176);
+    color: rgb(255, 153, 0);
+    padding: 3px;
+}
+.product-info-column{
+    border: 1px solid red;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(183, 181, 181);
+}
+.product-info-column h3{
+    font-size: 18px;
+    font-weight: 400;
+}
+#direct-link{
+    color:  rgb(72, 153, 216);
+    font-size: 16px;
+}
+#direct-link:hover{
+    text-decoration: underline;
+}
