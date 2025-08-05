@@ -1,6 +1,6 @@
 #pp-first-container{
     background-color: ;
-    box-shadow: none;
+    /* box-shadow: none; */
     height: auto;
     padding: 0px;
 }
@@ -8,6 +8,7 @@
     padding: 10px;
     background-color: white;
     width: auto;
+    max-width: 97.2%;
     height: 800px;
     margin-bottom: 50px;
 }
@@ -94,6 +95,9 @@
     border: 1px solid grey;
     cursor: pointer;
 }
+.product-info-row a img{
+    margin-right: 10px;
+}
 .product-info-column{
     /* border: 1px solid red; */
     width: 100%;
@@ -172,9 +176,11 @@ a .product-info-row:hover{
 
         /* DELIVERY & RETURNS */
 #pp-DandV{
-    width: 350px;
+    width: auto;
     background-color: white;
     padding: 0;
+    height: fit-content;
+    margin-bottom: 30px;
 }
 #pp-DandV .head{
     /* border: 1px solid red; */
@@ -191,11 +197,12 @@ a .product-info-row:hover{
     font-weight: 400;
 }
 .info-column{
-    border: 1px solid red;
-    width: 100%;
+    /* border: 1px solid red; */
+    width: auto;
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
+    position: relative;
 }
 .info-column p{
     font-size: 14px;
@@ -205,4 +212,68 @@ a .product-info-row:hover{
 }
 .info-column h2{
     font-size: 16px;
+}
+.info-column select{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid rgb(199, 195, 195);
+    border-radius: 5px;
+}
+.info-column select:hover{
+    color:rgb(0, 132, 255);
+    outline: rgb(0, 132, 255);
+    border: 1px solid;
+
+}
+ .pic-box{
+    border: 1px solid rgb(200, 197, 197);
+    border-radius: 5px;
+    width: auto;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+}
+.info-row{
+    /* border: 1px solid red; */
+    display: flex;
+    height: auto;
+    
+}
+.info-column #details{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: rgb(49, 147, 234);
+    font-size: 13px;
+}
+.info-column h2{
+    font-size: 14px;
+}
+.info-column p{
+    font-size: 13px;
+}
+.info-column #details:hover{
+    text-decoration: underline;
+}
+.straight{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    
+}
+#left-info-straight{
+   padding: 0;
+   /* border: 1px solid red; */
+   display: flex;
+   flex-direction: column;
+}
+#right-info-straight{
+    width: auto;
+    padding: 0;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
 }
