@@ -5,7 +5,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display:flex;
     flex-wrap: wrap;
-    overflow-x: hidden;
+    overflow-x: hidden; 
 }
 .section1{
     /* border: 1px solid red; */
@@ -157,6 +157,10 @@ body{
     background-color: white;
     box-shadow: 0px 1px 3px 2px rgb(207, 206, 206);
     display: none;
+    
+}
+#account-box:hover .account-dropdown{
+    display: block;
 }
 .sign-in-box{
     border-bottom: 1px solid rgb(164, 160, 160);
@@ -191,9 +195,7 @@ body{
     color: rgb(65, 177, 217) ;
     transition: 0.2s ;
 }
-.account-dropdown:hover{
-    display: flex;
-}
+
 .show-account-menu{
     display: flex;
 }
