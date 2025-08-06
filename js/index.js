@@ -30,6 +30,20 @@ function nextSlide(){
     showSlide(slideIndex);
 }
 
+        // ACCOUNT-DROPDOWN MENU
+
+let accountMenu = document.getElementById("account-menu");
+let accountB = document.getElementById("account_button");
+
+console.log(accountMenu);
+console.log(accountB);
+
+
+accountB.addEventListener("click",function(){
+    accountMenu.classList.toggle("show-account-menu");
+    // prompt("Don't have an account? sign in")
+})
+
 // PRODUCT SLIDER
 
 const productsBox = [...document.querySelectorAll('.product-box')];
@@ -52,11 +66,3 @@ productsBox.forEach((items,i)=>{
     
 })
 
-        // ACCOUNT-DROPDOWN MENU
-
-let accountMenu = document.getElementById("account-menu");
-let accountB = document.getElementById("account_button");
-
-accountMenu.addEventListener("click",function(){
-    accountMenu.classList.toggle("show-account-menu");
-})

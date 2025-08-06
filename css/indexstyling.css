@@ -16,6 +16,7 @@ body{
     flex-direction: column;
     align-items: center;
     margin: 0%;
+    flex-wrap: wrap;
 }
 .very-top{
     /* border: 1px solid blue; */
@@ -24,10 +25,12 @@ body{
     background-color: rgb(49, 94, 113);
     display: flex;
     justify-content: center;
+    
 }
 #very-top-box{
     padding: 0;
     box-shadow: none;
+    flex-wrap: wrap;
 }
 #top-box-container{
     box-shadow: none;
@@ -40,6 +43,7 @@ body{
     align-items: center;
     justify-content: space-between;
     position: relative;
+    flex-wrap: wrap;
 }
 .top a{
     display: flex;
@@ -108,6 +112,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     background-color: white;
     margin-bottom: 20px;
     position: relative;
@@ -156,12 +161,13 @@ body{
     z-index: 1;
     background-color: white;
     box-shadow: 0px 1px 3px 2px rgb(207, 206, 206);
-    display: none;
+    display:none;
+    flex-direction: column;
     
 }
-#account-box:hover .account-dropdown{
+/* #account-box:hover .account-dropdown{
     display: block;
-}
+} */
 .sign-in-box{
     border-bottom: 1px solid rgb(164, 160, 160);
     height: 60px;
@@ -461,9 +467,9 @@ img.displaySlide{
     
 }
 
-.put-email input:o .put-email{
-    border: 1px solid blue;
-}
+/* .put-email:hover{
+   border: 1px solid blue;
+} */
 .email-box button{
     height: 40px;
     padding: 10px;
