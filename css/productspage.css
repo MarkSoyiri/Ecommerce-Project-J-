@@ -1,6 +1,7 @@
 #pp-first-container{
     background-color: ;
     /* box-shadow: none; */
+    width: ;
     height: auto;
     padding: 0px;
 }
@@ -184,7 +185,7 @@ a .product-info-row:hover{
 }
 #pp-DandV .head{
     /* border: 1px solid red; */
-    width: 100%;
+    width: auto;
     height: fit-content;
     font-size: 12px;
     display: flex;
@@ -242,6 +243,21 @@ a .product-info-row:hover{
     height: auto;
     
 }
+#indi{
+    /* border: 1px solid red; */
+    width: auto;
+
+    display: flex;
+    align-items: center;
+}
+#indi img{
+    margin-left: 10px;
+    margin-right: 30px;
+    width: 30px;
+    height: 30px;
+    align-self: center;
+    /* border: 1px solid red; */
+}
 .info-column #details{
     position: absolute;
     top: 0;
@@ -276,4 +292,83 @@ a .product-info-row:hover{
     height: fit-content;
     display: flex;
     flex-direction: column;
+}
+.product-info-column .head{
+    /* border: 1px solid red; */
+    /* width:100%; */
+    height: fit-content;
+    font-size: 14px;
+    display: flex;
+    justify-content: start;
+    padding: 5px;
+    border-bottom: 1px solid rgb(221, 220, 220);
+    
+    
+}
+.pic-details{
+    /* border: 1px solid red; */
+    margin-top: 40px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 80px;
+    
+}
+.pic-details img{
+    width: 220px;
+    height: 270px;
+    /* border: 1px solid black; */
+}
+#pp-second-container{
+    width: auto;
+    padding: 0;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.text-details{
+    /* border: 1px solid red; */
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.text-details p{
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.text-details ul{
+    padding-left: 20px;
+    font-size: 15px;
+}
+#spec-container{
+    margin-bottom: 20px;
+}
+#spec-box{
+    width: 310px;
+    height: auto;
+    border-radius: 5px;
+    padding: 0;
+    border: 1px solid rgb(167, 166, 166);
+    padding-bottom: 20px;
+}
+#spec-box .head{
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(167, 166, 166);
+}
+#spec-box ul{
+    margin-left: 10px;
+    justify-content: center;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    
+}
+#spec-box .head h2{
+    font-weight: 400;
+}
+.shifter{
+    margin-left: 35px;
 }
