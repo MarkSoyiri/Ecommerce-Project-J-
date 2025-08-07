@@ -294,13 +294,14 @@ a .product-info-row:hover{
    /* border: 1px solid red; */
    display: flex;
    flex-direction: column;
+   width: 90%;
 }
 #right-info-straight{
-    width: auto;
+    width: 300px;
     padding: 0;
     height: fit-content;
     display: flex;
-    flex-direction: column;
+    flex-direction: column
 }
 .product-info-column .head{
     /* border: 1px solid red; */
@@ -379,5 +380,5 @@ a .product-info-row:hover{
     font-weight: 400;
 }
 .shifter{
-    margin-left: 35px;
+    margin-left: 48px;
 }
