@@ -243,20 +243,29 @@ a .product-info-row:hover{
     height: auto;
     
 }
-#indi{
+.indi{
     /* border: 1px solid red; */
     width: auto;
-
+    padding: 10px;
     display: flex;
     align-items: center;
 }
-#indi img{
+.indi:hover{
+    background-color: rgb(237, 234, 234);
+    p{
+        font-weight: 600;
+    }
+}
+.indi img{
     margin-left: 10px;
-    margin-right: 30px;
-    width: 30px;
-    height: 30px;
+    margin-right: 20px;
+    width: 28px;
+    height: 28px;
     align-self: center;
     /* border: 1px solid red; */
+}
+.indi p{
+    font-size: 30px;
 }
 .info-column #details{
     position: absolute;

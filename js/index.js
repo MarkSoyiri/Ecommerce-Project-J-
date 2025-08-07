@@ -33,7 +33,7 @@ function nextSlide(){
         // ACCOUNT-DROPDOWN MENU
 
 let accountMenu = document.getElementById("account-menu");
-let accountB = document.getElementById("account_button");
+let accountB = document.getElementById("account-button");
 
 console.log(accountMenu);
 console.log(accountB);
