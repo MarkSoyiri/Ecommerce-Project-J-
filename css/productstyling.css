@@ -73,13 +73,12 @@
     margin: 5px;
     position: relative;
     overflow-x:auto;
-    max-width: 100%;
-}
-.product-box{
+    /* max-width: 100%; */
     scroll-behavior: smooth;
     scrollbar-width: 0px;
     transition: 1s ease-in-out;
 }
+        /* HIDDEN SCROLLBAR CSS */
 .product-box::-webkit-scrollbar{
     /* width: 0px; */
     display: none;
