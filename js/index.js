@@ -30,39 +30,43 @@ function nextSlide(){
     showSlide(slideIndex);
 }
 
-        // ACCOUNT-DROPDOWN MENU
+        // DROPDOWN MENUs
 
 let accountMenu = document.getElementById("account-menu");
 let accountB = document.getElementById("account-button");
+let helpMenu = document.getElementById("help-menu");
+let helpB = document.getElementById("help-button")
 
-console.log(accountMenu);
-console.log(accountB);
-
-
+            // ACCOUNT-DROPDOWN MENU
 accountB.addEventListener("click",function(){
     accountMenu.classList.toggle("show-account-menu");
     // prompt("Don't have an account? sign in")
 })
 
+                // HELP-DROPDOWN MENU
+helpB.addEventListener("click",function(){
+    helpMenu.classList.remove("show-account-menu");
+    console.log("true")
+})
 // PRODUCT SLIDER
 
-const productsBox = [...document.querySelectorAll('.product-box')];
-const previousBtn = [...document.querySelectorAll('.previous-btn')];
-const nextBtn = [...document.querySelectorAll('.next-btn')];
+// const productsBox = [...document.querySelectorAll('.product-box')];
+// const previousBtn = [...document.querySelectorAll('.previous-btn')];
+// const nextBtn = [...document.querySelectorAll('.next-btn')];
 
-productsBox.forEach((items,i)=>{
-    let containerDimensions = items.getBoundingClientRect();
-    let containerWidth = containerDimensions.width;
-    nextBtn[i].addEventListener('click',()=>{
-        items.scrollLeft += containerWidth;
+// productsBox.forEach((items,i)=>{
+//     let containerDimensions = items.getBoundingClientRect();
+//     let containerWidth = containerDimensions.width;
+//     nextBtn[i].addEventListener('click',()=>{
+//         items.scrollLeft += containerWidth;
         
-    })
+//     })
 
-    previousBtn[i].addEventListener('click',()=>{
-        items.scrollLeft -= containerWidth;
+//     previousBtn[i].addEventListener('click',()=>{
+//         items.scrollLeft -= containerWidth;
         
         
-    })
+//     })
     
-})
+// })
 

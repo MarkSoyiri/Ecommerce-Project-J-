@@ -165,9 +165,18 @@ body{
     flex-direction: column;
     
 }
-/* #account-box:hover .account-dropdown{
-    display: block;
-} */
+
+#help-menu{
+    display: none;
+    right:250px;
+    .in-box{
+        padding-left: 20px;
+    }
+}
+#help-menu a{
+    text-decoration: none;
+    color: black;
+}
 #account-menu a{
     text-decoration: none;
     color: black;
