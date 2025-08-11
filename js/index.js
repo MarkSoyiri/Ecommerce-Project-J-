@@ -1,3 +1,5 @@
+
+
 const slides = document.querySelectorAll(".slides img");
 let slideIndex = 0;
 let intervalId = null;
@@ -37,6 +39,8 @@ let accountB = document.getElementById("account-button");
 let helpMenu = document.getElementById("help-menu");
 let helpB = document.getElementById("help-button")
 
+
+console.log(helpB)
             // ACCOUNT-DROPDOWN MENU
 accountB.addEventListener("click",function(){
     accountMenu.classList.toggle("show-account-menu");
@@ -45,7 +49,7 @@ accountB.addEventListener("click",function(){
 
                 // HELP-DROPDOWN MENU
 helpB.addEventListener("click",function(){
-    helpMenu.classList.remove("show-account-menu");
+    helpMenu.classList.toggle("add-on");
     console.log("true")
 })
 // PRODUCT SLIDER
@@ -70,3 +74,4 @@ helpB.addEventListener("click",function(){
     
 // })
 
+  

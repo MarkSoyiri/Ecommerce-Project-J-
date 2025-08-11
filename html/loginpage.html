@@ -8,12 +8,36 @@
 </head>
 <body>
     <div class="form-box">
-        <form action="">
+        <form action="" id="login-form">
             <fieldset>
                 <a href="index.html"><img src="/images/logonobg.png" alt="" width="200px" height="200px"></a>
                 <h1>Welcome to Soscom </h1>
                 <p>Type your e-mail or phone number to log in or create a Soscom account.</p>
-                <input type="email" placeholder="Type your email here...">
+                <input type="email" placeholder="Type your Email here...">
+                <input type="password" placeholder="Type your Password here...">
+                <input type="button" id="go" value="Sign In">
+                <span>By continuing you agree to Soscom’s <a href="">Terms and Conditions</a></span>
+                <div class="button-box">
+                    <img src="/images/facebookwhite.png" alt="">
+                    <span id="facebookLog">Log in with Facebook</span>
+                </div>
+                <div class="button-box" id="googleLog">
+                    <img src="/images/googlelogo.png" alt="">
+                    <span id="facebookLog">Log in with Google</span>
+                </div>
+                <span>Don't have an account?<span class="log-switch" id="register-button"> Register</span></span>
+                <span>For further support, you may visit the Help Center or contact our customer service team.</span>
+            </fieldset>
+        </form>
+
+        <form action="" class="register-form" id="register-form">
+            <fieldset>
+                <a href="index.html"><img src="/images/logonobg.png" alt="" width="200px" height="200px"></a>
+                <h1>Welcome to Soscom </h1>
+                <p>Type your e-mail or phone number to log in or create a Soscom account.</p>
+                <input type="email" placeholder="Type your Email here...">
+                <input type="password" placeholder="Enter New Password ">
+                <input type="password" placeholder="Confirm Password">
                 <input type="button" id="go" value="Sign Up">
                 <span>By continuing you agree to Soscom’s <a href="">Terms and Conditions</a></span>
                 <div class="button-box">
@@ -24,9 +48,13 @@
                     <img src="/images/googlelogo.png" alt="">
                     <span id="facebookLog">Log in with Google</span>
                 </div>
+                <span>Already have an account?<span class="log-switch" id="login-button"> Login</span></span>
                 <span>For further support, you may visit the Help Center or contact our customer service team.</span>
             </fieldset>
         </form>
     </div>
+
+
+    <script src="/js/login.js"></script>
 </body>
 </html>
