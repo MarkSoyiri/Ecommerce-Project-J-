@@ -150,6 +150,7 @@
                 align-self: center;
                 position: absolute;
                 right: 10px;
+                top: 20px;
             }
             .topDown{
                 display: flex;
@@ -165,11 +166,39 @@
                 }
                 
             }
+            .drop-info{
+                /* border: 1px solid red; */
+                margin-top: 20px;
+                display: none;
+                flex-direction: column;
+                padding: 10px;
+                ul{
+                    margin-top: 10px;
+                    margin-bottom: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+                    
+                    li{
+                    font-size: 17px;
+                    font-weight: 400;
+                    
+                }
+                }
+                h5{
+                    font-weight: 400;
+                    margin-bottom: 10px;
+                }
+            }
         }
-        /* span:hover{
-            background-color: rgb(247, 247, 247);
-            cursor: pointer;
-        } */
+        span:hover .drop-info{
+            display: flex
+            
+            
+        }
+        span:hover p{
+            transform:rotateY('angle')(135rad);
+        }
         .envelope{
             border: 1px solid rgb(220, 220, 220);
             margin: 15px;
