@@ -271,7 +271,10 @@ body{
     margin-left: 3px;
     
 }
-
+a .account-box {
+    text-decoration:none;
+    color: black;
+}
 .account-box #prev{
     position: relative;
 }
