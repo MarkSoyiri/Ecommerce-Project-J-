@@ -113,7 +113,7 @@
 }
 #
 }
-#items-box{
+.orderPageStyle{
     width: 80%;
      span{
             width: auto;
@@ -230,4 +230,35 @@
 }
 .add-on{
     display: flex;
+}
+
+#items-box{
+    margin-top: 10px;
+    .header{
+        background-color: white;
+        h3{
+            color: black;
+            font-weight: 500;
+            margin-left: 10px;
+        }
+    }
+}
+.product-box{
+    
+    .prod-info-box{
+        span{
+            color: rgb(48, 47, 47);
+            font-size: 14.5px;
+        }
+        h5{
+            color: rgb(47, 46, 46);
+            font-size: 17px;
+        }
+        s{
+            color: rgb(94, 92, 92);
+            font-size: 12px;
+        }
+    } 
+        
+    
 }
