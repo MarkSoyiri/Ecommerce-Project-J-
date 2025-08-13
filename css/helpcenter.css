@@ -83,8 +83,14 @@
     #pp-first-container{
         box-shadow: none;
     }
+    #pp-DandV{
+        width: fit-content;
+        padding: 0;
+        height: fit-content;
+    }
     #right-info-straight{
         box-shadow: none;
+        padding: 0;
         span{
             width: 100%;
             height: 50px;
@@ -115,15 +121,16 @@
         }
         .envelope{
             border: 1px solid rgb(220, 220, 220);
-            /* margin: 1px; */
             border-radius: 5px;
+            height: fit-content;
+            width: 300px;
             padding: 2px;
-            padding-bottom: 0;
-            padding-top: 0;
+            background-color: white;
         }
 }
 }
 #items-box{
+    height: fit-content;
      span{
             width: auto;
             height: auto;
@@ -207,4 +214,7 @@
             padding-bottom: 0;
             padding-top: 0;
         }
+}
+.add-on{
+    display: flex;
 }
