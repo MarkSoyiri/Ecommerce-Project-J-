@@ -1,0 +1,172 @@
+.cartStyle-l{
+.envelope{
+    border: none;
+    border-bottom: 1px solid rgb(217, 217, 217);
+    span{
+        .topDown{
+            h4{
+                font-size: 18   px;
+            }
+            .dis{
+                display: flex;
+                align-items: center;
+                column-gap: 2px;
+            s{
+                font-size: 15px;
+                color: grey;
+                
+            }
+            .discount{
+                    color: blue;
+                    width: fit-content;
+                    padding: 3px;
+                    border-radius: 5px;
+                    font-size: 15px;
+                    background-color: rgb(210, 237, 251);
+                }
+            }
+            form{
+                /* border: 1px solid red; */
+                display: flex;
+                align-items: center;
+                column-gap: 12px;
+                margin-top: 20px;
+                input{
+                    font-size: 30px;
+                    display: flex;
+                    background-color: rgb(210, 210, 211);
+                    width: 40px;
+                    border-radius: 5px;
+                    display: flex;
+                    align-items: center;
+                    border: none;
+                    box-shadow: 0px 0px 1px 1px rgb(196, 195, 195);
+                    cursor: pointer;
+                }
+                .reduce-item:hover{
+                    background-color: rgb(189, 186, 186);
+                    color: white;
+                    transition: 0.2s ease-in-out;
+                    transform: scale(1.07);
+                }
+                .increase-item{
+                    background-color: rgb(79, 196, 255);
+                }
+                .increase-item:hover{
+                    background-color: rgb(9, 134, 197);
+                    color: white;
+                    transition: 0.2s ease-in-out;
+                    transform: scale(1.07);
+                }
+            }
+            .remove{
+                display: flex;
+                align-items: center;
+                width: fit-content;
+                border-radius: 5px;
+                cursor: pointer;
+                img{
+                    width: 25px;
+                    height: 25px;
+                }
+                p{
+                    font-size: 16px;
+                    color: rgb(255, 2, 2);
+                }
+            }
+            .remove:hover{
+                background-color:rgba(251, 179, 179, 0.792) ;
+                transition: 0.2s ease-in-out;
+            }
+        }   
+}
+}
+}
+
+.cartStyle-r{
+    padding: 0;
+    .head{
+        padding: 5px;
+        padding-left: 10px;
+        border-bottom: 1px solid rgb(226, 225, 225);
+        h1{
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
+    .envelope{
+        margin: 5px;
+        .topDown{
+            .subTotal{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 10px;
+                h4{
+                    font-size: 18px;
+                }
+                
+            }
+            h3{
+                font-size: 14px;
+                color: grey;
+                font-weight: 400;
+            }
+        }
+    }
+    .horizontal-line{
+        width: 100%;
+        height: 1px;
+        background-color: rgb(201, 199, 199);
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .border-set{
+        
+        border: 1px solid rgb(201, 199, 199);
+        .head{
+            padding-left: 5px;
+            background-color:  rgb(79, 196, 255);
+            margin: 0;
+        }
+        .topDown{
+            padding-left: 5px;
+            padding-right: 5px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 2px;
+            .subTotal{
+                margin: 0;
+                padding-left: 5px;
+            }
+            h3{
+               margin: 5px; 
+               margin-bottom: 20px;
+            }
+            h1{
+               margin: 5px; 
+               margin-bottom: 5px;
+               font-weight: 500;
+            }
+            
+        }
+        
+    }
+    .checkOut{
+        /* border: 1px solid grey; */
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        font-size: 14px;
+        font-weight: 500;
+        margin: 5px;
+        border-radius: 5px;
+        color: white;
+        background-color:  rgb(20, 150, 215);
+    }
+    .checkOut:hover{
+        box-shadow: 0px 1px 2px 2px rgb(212, 211, 211);
+        transform: scale(1.01);
+        transition: 0.1s ease-in-out;
+    }
+}

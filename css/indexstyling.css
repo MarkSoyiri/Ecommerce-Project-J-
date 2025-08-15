@@ -269,6 +269,7 @@ body{
     column-gap: 5px;
     width: auto;
     margin-left: 3px;
+    cursor: pointer;
     
 }
 a .account-box {

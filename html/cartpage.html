@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SOSCOM</title>
+    <title>CART</title>
     <link rel="stylesheet" href="/css/indexstyling.css">
     <link rel="stylesheet" href="/css/productstyling.css">
     <link rel="stylesheet" href="/css/productspage.css">
@@ -69,11 +69,13 @@
                 <img id="prev" src="/images/dropdown black.png" style="margin-left: 5px; margin-right: 5px; position: relative;top: 2px;" width="10px" height="10px">
                 <img id="replace" src="/images/dropdownorange.png" style="margin-left: 5px; margin-right: 5px; position: relative;top: 2px;" width="10px" height="10px">
             </div>
+            <a  style="color: black;text-decoration: none;" href="cartpage.html">
             <div class="account-box">
                 <img id="prev" src="/images/cartblack.png" alt="account" width="25px" height="25px">
                 <img id="replace" src="/images/cartorange.png" width="25px" height="25px">
                 <p>Cart</p>
             </div>
+            </a>
 
                         <!--ACCOUNT DROPDOWN-MENU -->
             <div class="account-dropdown" id="account-menu">
@@ -82,20 +84,67 @@
                         <h4>Sign In</h4>
                     </div>
                 </a>
+                <a href="loginpage.html">
                 <div class="in-box">
                     <img src="/images/userc.png" alt="user" width="25px" height="25px">
                     <p>My Account</p>
                 </div>
+                </a>
                 <a href="myorderpage.html">
-                    <div class="in-box">
-                        <img src="/images/orderc.png" alt="user" width="25px" height="25px">
-                        <p>Order</p>
-                    </div>
-                    </a>
+                <div class="in-box">
+                    <img src="/images/orderc.png" alt="user" width="25px" height="25px">
+                    <p>Order</p>
+                </div>
+                </a>
                 <a href="myorderpage.html">
-                    <div class="in-box">
-                        <img src="/images/wishlistc.png" alt="user" width="25px" height="25px">
-                        <p>Wishlist</p>
+                <div class="in-box">
+                    <img src="/images/wishlistc.png" alt="user" width="25px" height="25px">
+                    <p>Wishlist</p>
+                </div>
+                </a>
+            </div>
+
+            <div class="help-dropdown help-dropdown2" id="help-menu">
+                    
+                <a href="helpcenter.html">
+                <div class="in-box">
+                    
+                    <p>Help Center</p>
+                </div>
+                </a>
+                <a href="helpcenter.html">
+                <div class="in-box">
+                    
+                    <p>Place an Order</p>
+                </div>
+                </a>
+                <a href="helpcenter.html">
+                <div class="in-box">
+                    
+                    <p>Pay for your Order</p>
+                </div>
+                </a>
+                <a href="helpcenter.html">
+                <div class="in-box">
+                    
+                    <p>Track your Order</p>
+                </div>
+                </a>
+                <a href="helpcenter.html">
+                <div class="in-box">
+                    
+                    <p>Cancel an Order</p>
+                </div>
+                </a>
+                <a href="helpcenter.html">
+                <div class="in-box">
+                    <p>Create a Refund</p>
+                </div>
+                </a>
+                <a href="helpcenter.html">
+                    <div class="sign-in-box" style="border-bottom:none ;border-top: 1px solid rgb(201, 201, 201);">
+                        
+                        <h4><img src="/images/chat.png" alt="" width="25px" height="25px" style="margin-right: 10px;">Live Chat</h4>
                     </div>
                 </a>
             </div>
@@ -111,7 +160,7 @@
         
         <div class="box-container" id="pp-first-container" style="width: 71.5%;margin-top: 20px;margin-bottom: 50px;">
 
-            <div class="box-container orderPageStyle" id="items-box" style="width: 100%;margin-top: 0;flex-direction: column;padding: 0px;margin: 0px;">
+            <div class="box-container orderPageStyle cartStyle-l" id="items-box" style="width:auto;margin-top: 0;flex-direction: column;padding: 0px;margin: 0px;">
                 <div class="head">
                     <h1>Cart(3)</h1>
                 </div>
@@ -120,23 +169,125 @@
                
                 <div class="envelope">
                     <span>
-                        
+                        <img src="/images/shirt.jpg" alt="">
                         <div class="topDown">
-                            
+                            <h4>9-in-1 Professional Mandoline Vegetable Cutter Slicer - White/Grey</h4>
+                            <h3>Seller: <b>Touphy</b></h3>
+                            <h3>In stock</h3>
+                            <div class="remove">
+                                <img src="/images/remove.png" alt="">
+                                <p>Remove</p>
+                            </div>
+                        </div>
+                        <div class="topDown">
+                            <h4>GH₵ 78.00</h4>
+                            <div class="dis">
+                                <s>GH₵98.00</s>
+                                <p class="discount">-20%</p>
+                            </div>
+                            <form action="">
+                                <input class="reduce-item" type="button" value="-">
+                                <p>1</p>
+                                <input class="increase-item" type="button" value="+">
+                            </form>
+                        </div>
+                           
+                    </span>
+                </div>
+                <div class="envelope">
+                    <span>
+                        <img src="/images/shirt.jpg" alt="">
+                        <div class="topDown">
+                            <h4>9-in-1 Professional Mandoline Vegetable Cutter Slicer - White/Grey</h4>
+                            <h3>Seller: <b>Touphy</b></h3>
+                            <h3>In stock</h3>
+                            <div class="remove">
+                                <img src="/images/remove.png" alt="">
+                                <p>Remove</p>
+                            </div>
+                        </div>
+                        <div class="topDown">
+                            <h4>GH₵ 78.00</h4>
+                            <div class="dis">
+                                <s>GH₵98.00</s>
+                                <p class="discount">-20%</p>
+                            </div>
+                            <form action="">
+                                <input class="reduce-item" type="button" value="-">
+                                <p>1</p>
+                                <input class="increase-item" type="button" value="+">
+                            </form>
+                        </div>
+                           
+                    </span>
+                </div>
+                <div class="envelope">
+                    <span>
+                        <img src="/images/shirt.jpg" alt="">
+                        <div class="topDown">
+                            <h4>9-in-1 Professional Mandoline Vegetable Cutter Slicer - White/Grey</h4>
+                            <h3>Seller: <b>Touphy</b></h3>
+                            <h3>In stock</h3>
+                            <div class="remove">
+                                <img src="/images/remove.png" alt="">
+                                <p>Remove</p>
+                            </div>
+                        </div>
+                        <div class="topDown">
+                            <h4>GH₵ 78.00</h4>
+                            <div class="dis">
+                                <s>GH₵98.00</s>
+                                <p class="discount">-20%</p>
+                            </div>
+                            <form action="">
+                                <input class="reduce-item" type="button" value="-">
+                                <p>1</p>
+                                <input class="increase-item" type="button" value="+">
+                            </form>
                         </div>
                            
                     </span>
                 </div>
                 
+                
+                
 
             </div>
 
-            <div class="box-container"  id="right-info-straight" style="width:300px;">
+            <div class="box-container"  id="right-info-straight" style="width:auto;">
 
-                <div class="box-container try" id="pp-DandV" style="flex-direction: column;"  >
-                    <div class="envelope">
+                <div class="box-container try cartStyle-r" id="pp-DandV" style="flex-direction: column;width: auto;"  >
+                    <div class="head">
+                        <h1>CART SUMMARY</h1>
+                    </div>
+                    <div class="envelope" style="width: 300px;">
+                        <div class="topDown">
+                            <div class="subTotal">
+                                <p>subtotal</p>
+                                <h4>GH₵ 234.00</h4>
+                            </div>
+                            <h3>Delivery fees not included yet.</h3>
+                        </div>
                         
                     </div>
+                    <div class="horizontal-line"></div>
+
+                        <div class="envelope border-set" style="width: 300px;padding: 0;">
+                            <div class="head">
+                                <p>Free Delivery</p>
+                            </div>
+                            <div class="topDown">
+                                <h1>SOSCOM EXPRESS</h1>
+                                <h3>Jumia Express items are eligible for free delivery.</h3>
+                                
+                            </div>
+                        </div>
+
+                    <div class="horizontal-line"></div>
+
+                    <a class="checkOut" href="">
+                        checkout(GH₵ 234.00)
+                    </a>
                 </div>
                 
             </div>
