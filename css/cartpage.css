@@ -75,7 +75,7 @@
                 }
             }
             .remove:hover{
-                background-color:rgba(251, 179, 179, 0.792) ;
+                background-color:rgba(250, 197, 197, 0.792) ;
                 transition: 0.2s ease-in-out;
             }
         }   
@@ -113,13 +113,6 @@
                 font-weight: 400;
             }
         }
-    }
-    .horizontal-line{
-        width: 100%;
-        height: 1px;
-        background-color: rgb(201, 199, 199);
-        margin-top: 10px;
-        margin-bottom: 10px;
     }
     .border-set{
         
@@ -170,3 +163,10 @@
         transition: 0.1s ease-in-out;
     }
 }
+.horizontal-line{
+        width: 100%;
+        height: 1px;
+        background-color: rgb(201, 199, 199);
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
