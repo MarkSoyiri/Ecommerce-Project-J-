@@ -3,6 +3,7 @@
     height: auto;
     width: 70%;
     display: flex;
+    justify-content: center;
     padding: 10px;
     /* padding-top: 10px; */
     column-gap: 15px;
@@ -69,6 +70,7 @@
     /* border: 1px solid red; */
     padding-top:5px;
     display: flex;
+    justify-content: center;
     column-gap: 5px;
     margin: 5px;
     position: relative;
