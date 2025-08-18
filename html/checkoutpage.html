@@ -51,31 +51,31 @@
         <div class="nav" style="margin-bottom: 0;">
             <div class="box-container check-custom" id="top-box-container">
             <div>
-                <a href="/html/index.html"><img class="logo" src="/images/logonobg.png" width="90px" height="70px"></a>
+                <a href="../index.html"><img class="logo" src="/images/logonobg.png" width="90px" height="70px"></a>
             </div>
             <div class="mid">
                 <h3>Select Payment</h3>
             </div>
             <div class="end">
                 <div class="end-inside">
-                    <img src="/images/chat.png" alt="">
+                    <img src="/images/callsupport.png" alt="">
                     <div class="topDown">
                         <h3>Select Payment</h3>
                         <a href="">Contact us</a>
                     </div>
                 </div>
                 <div class="end-inside">
-                    <img src="/images/chat.png" alt="">
+                    <img src="/images/return.png" alt="">
                     <div class="topDown">
-                        <h3>Select Payment</h3>
-                        <a href="">Contact us</a>
+                        <h3>Easy</h3>
+                        <h3>Returns</h3>
                     </div>
                 </div>
                 <div class="end-inside">
-                    <img src="/images/chat.png" alt="">
+                    <img src="/images/securepay.png" alt="">
                     <div class="topDown">
-                        <h3>Select Payment</h3>
-                        <a href="">Contact us</a>
+                        <h3>Secure</h3>
+                        <h3>Payments</h3>
                     </div>
                 </div>
             </div>
@@ -88,11 +88,12 @@
 
     <section class="section1">
 
-        
+                        <!-- PAYMENT AND DELIVERY DETAILS -->
         
         <div class="box-container" id="pp-first-container" style="width: 71.5%;margin-top: 20px;margin-bottom: 50px;">
             <div class="seal">
                 <div class="box-container orderPageStyle cartStyle-l checkout-box" id="items-box" style="width:auto;max-width: unset; flex-direction: column; padding: 0px; margin: 0px; height: fit-content;">
+                        <!-- 1.CUSTOMER ADDRESS -->
                     <div class="head checkout-head">
                         <img src="/images/checkmark.png " alt="">
                         <h1>1.CUSTOMER ADDRESS</h1>
@@ -110,24 +111,59 @@
                         </span>
                     </div>
                 </div>
+
+                        <!-- 2.DELIVERY ADDRESS AND DETAILS -->
                 <div class="box-container orderPageStyle cartStyle-l checkout-box" id="items-box" style="width:auto;max-width: unset; flex-direction: column; padding: 0px; margin: 0px; height: fit-content;">
                     <div class="head checkout-head">
                         <img src="/images/checkmark.png " alt="">
-                        <h1>2.DELIVERY ADDRESS</h1>
+                        <h1>2.DELIVERY DETAILS</h1>
                         <a href="">
                             <p>change &#10095</p>
                         </a>
                     </div>
                 
                     <div class="envelope">
-                        <span>
+                        <span style="row-gap: 20px;">
                             <div class="topDown">
                             <p>Pick-up Station</p>
-                            <h3>Delivery between 21 August and 28 August.</h3>
+                            <h3>Delivery between <b>21 August</b> and <b>28 August.</b></h3>
                             </div>
+                            
+                            <span style="border: 1px solid rgb(208, 208, 208); border-radius: 5px; padding-left: 0; ">
+                                <div class="pickup-heading">
+                                    <p style="padding-left: 5px;">Pick-up Station</p>
+                                </div>
+                                <div class="horizontal-line"></div>
+                                
+                                <div class="topDown">
+                                    <h3>Soscom Pickup Station Techiman Holy Family <br>
+                                    Mortuary road Techiman(Family hospital), Opposite Techiman Holy Family Hospital Mortuary gate | Bono East - Techiman</h3>
+                                </div>
+                            
+                            </span>
+                            <span style="border: 1px solid rgb(208, 208, 208); border-radius: 5px; padding-left: 0; ">
+                                <div class="pickup-heading">
+                                    <div class="topDown">
+                                        <p>Pick-up Station</p>
+                                        <h3>Delivery between <b>21 August</b> and <b>28 August.</b></h3>
+                                    </div>
+                                </div>
+                                <div class="horizontal-line"></div>
+                                
+                                <div class="pickup-heading">
+                                    <img src="/images/shirt.jpg" alt="">
+                                    <div class="topDown">
+                                        <h3>TOUPHY Sports Short Sleeve T-Shirt & Shorts Set - 2 Piece - Black</h3>
+                                        <h3>GH₵ 75.90</h3>
+                                    </div>
+                                </div>
+                            
+                            </span>
                         </span>
                     </div>
                 </div>
+
+                            <!-- 3.PAYMENT METHOD -->
                 <div class="box-container orderPageStyle cartStyle-l checkout-box" id="items-box" style="width:auto;max-width: unset; flex-direction: column; padding: 0px; margin: 0px; height: fit-content;">
                     <div class="head checkout-head">
                         <img src="/images/checkmark.png " alt="">
@@ -168,7 +204,7 @@
                         <span style="border: 1px solid rgb(208, 208, 208); border-radius: 5px; padding-left: 0;">
                             <div class="balance">
                                 <img src="/images/wallet.png" alt="" >
-                                <p>Jumia store credit balance:GH₵ 0.00</p>
+                                <p>Soscom store credit balance:GH₵ 0.00</p>
                             </div>
 
                             <div class="horizontal-line"></div>
@@ -182,7 +218,7 @@
 
                             <div class="card-type">
                                 <p>We accept:</p>
-                                <img src="/images/visablue.png" alt="">
+                                <img src="/images/visa.png" alt="">
                             </div>
                         
                         </span>
@@ -204,32 +240,39 @@
 
                     <div class="horizontal-line"></div>
 
+                        <!-- MOBILE MONEY SELECTION -->
                     <div class="envelope border" >
                         <span>
                             <p>Mobile Money</p>
                             <div class="pay-opt">
-                                <input type="radio">
+                                <input type="radio" name="payment-mtd" id="mtn">
+                                <label for="mtn">
                                 <div class="topDown">
                                     <p>Mtn Mobile Money <img src="/images/mtnlogo.png" alt=""></p>
                                 </div>
+                                </label>
                             </div>
 
                             <div class="horizontal-line"></div>
 
                             <div class="pay-opt">
-                                <input type="radio">
-                                <div class="topDown">
-                                    <p>AirtelTigo Mobile Money <img src="/images/airteltigo.png" alt=""></p>
-                                </div>
+                                <input type="radio" name="payment-mtd" id="airteltigo">
+                                <label for="airteltigo">
+                                    <div class="topDown">
+                                        <p>AirtelTigo Mobile Money <img src="/images/airteltigo.png" alt=""></p>
+                                    </div>
+                                </label>
                             </div>
 
                             <div class="horizontal-line"></div>
 
                             <div class="pay-opt">
-                                <input type="radio">
-                                <div class="topDown">
-                                    <p>Telecel Mobile Money <img src="/images/telecel.png" alt=""></p>
-                                </div>
+                                <input type="radio" name="payment-mtd" id="telecel">
+                                <label for="telecel">
+                                    <div class="topDown">
+                                        <p>Telecel Mobile Money <img src="/images/telecel.png" alt=""></p>
+                                    </div>
+                                </label>
                             </div>
 
                             <div class="confirm-payment">
@@ -238,8 +281,10 @@
 
                         </span>
                     </div>
+                            <!-- MMS END -->
                 </div>
-
+                            <!-- PM END -->
+                    <!-- HOMEPAGE LINK -->
                 <a class="continue-shopping" href="../index.html">&#10094 Go back & continue shopping</a>
             </div>
             
@@ -285,9 +330,12 @@
 
                     <div class="horizontal-line"></div>
 
-                    <a class="checkOut" href="">
-                        checkout(GH₵ 234.00)
+                    <a class="checkout-confirm" href="">
+                        Confirm Order
                     </a>
+                    <div class="terms-n-condition">
+                    <p >(Proceeding means concent to our<a href=""> Terms & conditions</a>)</p>
+                    </div>
                 </div>
                 
             </div>

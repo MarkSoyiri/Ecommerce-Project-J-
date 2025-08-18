@@ -145,28 +145,37 @@
         }
         
     }
-    .checkOut{
+    .checkout-btn{
         /* border: 1px solid grey; */
         display: flex;
         justify-content: center;
         padding: 5px;
-        font-size: 14px;
+        font-size: 17px;
         font-weight: 500;
         margin: 5px;
         border-radius: 5px;
         color: white;
         background-color:  rgb(20, 150, 215);
     }
-    .checkOut:hover{
+    .checkout-btn:hover{
         box-shadow: 0px 1px 2px 2px rgb(212, 211, 211);
         transform: scale(1.01);
         transition: 0.1s ease-in-out;
     }
 }
 .horizontal-line{
-        width: 100%;
-        height: 1px;
-        background-color: rgb(201, 199, 199);
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
+    width: 100%;
+    height: 1px;
+    background-color: rgb(201, 199, 199);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.image-n-text p{
+    color: black;
+}
+.supaCon{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
