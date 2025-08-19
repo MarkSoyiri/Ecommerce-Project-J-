@@ -2,14 +2,16 @@
     box-shadow: none;
     height: auto;
     padding: 0px;
+    margin-top: 40px;
+    position: relative;
 }
 #pp-products-info{
     padding: 10px;
     background-color: white;
     width: auto;
-    max-width: 97.2%;
-    height: 800px;
-    margin-bottom: 50px;
+    /* max-width: 97.2%; */
+    height: auto;
+    margin-bottom: 20px;
 }
 
 .product-preview{
@@ -31,11 +33,11 @@
 .inside-product-info{
     /* border: 1px solid red; */
     width: 80%;
-    max-width: 80%;
+    
 }
 .product-info-row{
     /* border: 1px solid red; */
-    height: auto;
+    height: fit-content;
     display: flex;
     align-items: center;
     column-gap: 5px;
@@ -302,6 +304,8 @@ a .product-info-row:hover{
     display: flex;
     flex-direction: column;
     box-shadow: none;
+    position: sticky;
+    right: 0;
 }
 .product-info-column .head{
     /* border: 1px solid red; */
@@ -354,6 +358,11 @@ a .product-info-row:hover{
 }
 #spec-container{
     margin-bottom: 20px;
+    display: flex;
+    justify-content: unset;
+    column-gap: 20px;
+    row-gap: 20px;
+    flex-wrap: wrap;
 }
 #spec-box{
     width: 310px;
@@ -379,6 +388,8 @@ a .product-info-row:hover{
 #spec-box .head h2{
     font-weight: 400;
 }
-.shifter{
-    margin-left: 48px;
+
+.specific{
+    display: flex;
+    flex-wrap: wrap;
 }
