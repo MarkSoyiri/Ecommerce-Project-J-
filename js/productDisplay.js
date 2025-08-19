@@ -1,0 +1,60 @@
+const product = [{
+    image:"shirt.jpg",
+    name:"TOUPHY Sports Short Sleeve T-Shirt & Shorts Set - 2 Piece - Black ",
+    price:60.75,
+    seller:"Touphy",
+    available:"in stock",
+    discount:50
+},
+{   
+    image:"shirt.jpg",
+    name:"TOUPHY Sports Short Sleeve T-Shirt & Shorts Set - 2 Piece - Black",
+    price:600.75,
+    seller:"Touphy",
+    available:"in stock",
+    discount:50
+}]
+
+
+    let parent_box = document.getElementById("parent-box");
+     let child_box = document.createElement("a");
+
+product.map((eachProduct)=>{
+
+    
+  
+
+    child_box.innerHTML =  `<div class="envelope">
+                        <span>
+                            <div class="tie">
+                                <img src="/images/${eachProduct.image}" alt="">
+                                <div class="topDown">
+                                    <p>${eachProduct.name}</p>
+                                    <h3>Seller: <b>${eachProduct.seller}</b></h3>
+                                    <h3>${eachProduct.available}</h3>
+                                    <div class="remove">
+                                        <img src="/images/remove.png" alt="">
+                                        <p>Remove</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="topDown">
+                                <h4>GH₵ ${eachProduct.price}</h4>
+                                <div class="dis">
+                                    <s>GH₵ ${eachProduct.discount}</s>
+                                    <p class="discount">${((eachProduct.discount/eachProduct.price)*(100)).toFixed(1)}%</p>
+                                </div>
+                                <form action="">
+                                    <input class="reduce-item" type="button" value="-">
+                                    <p>1</p>
+                                    <input class="increase-item" type="button" value="+">
+                                </form>
+                            </div>
+                            
+                        </span>
+                    </div>`
+
+                    parent_box.append(child_box)
+                     child_box = document.createElement("a");
+
+})

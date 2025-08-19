@@ -1,7 +1,5 @@
 #pp-first-container{
-    background-color: ;
-    /* box-shadow: none; */
-    width: ;
+    box-shadow: none;
     height: auto;
     padding: 0px;
 }
@@ -177,7 +175,7 @@ a .product-info-row:hover{
 
         /* DELIVERY & RETURNS */
 #pp-DandV{
-    width: auto;
+    width: 270px;
     background-color: white;
     padding: 0;
     height: fit-content;
@@ -294,14 +292,16 @@ a .product-info-row:hover{
    /* border: 1px solid red; */
    display: flex;
    flex-direction: column;
-   width: 90%;
+   width: 100%;
+   box-shadow: none;
 }
 #right-info-straight{
     width: 300px;
     padding: 0;
     height: fit-content;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    box-shadow: none;
 }
 .product-info-column .head{
     /* border: 1px solid red; */

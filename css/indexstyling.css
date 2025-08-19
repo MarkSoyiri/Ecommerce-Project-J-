@@ -17,6 +17,7 @@ body{
     align-items: center;
     margin: 0%;
     flex-wrap: wrap;
+    position: relative;
 }
 .very-top{
     /* border: 1px solid blue; */
@@ -115,7 +116,10 @@ body{
     flex-wrap: wrap;
     background-color: white;
     margin-bottom: 20px;
-    position: relative;
+    position:fixed;
+    top: 0;
+    z-index: 12;
+    
 }
 .logo{
     /* border: 1px solid red; */
