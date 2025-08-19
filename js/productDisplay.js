@@ -1,23 +1,23 @@
 const product = [{
     image:"shirt.jpg",
     name:"TOUPHY Sports Short Sleeve T-Shirt & Shorts Set - 2 Piece - Black ",
-    price:60.75,
+    price:60.50,
     seller:"Touphy",
     available:"in stock",
-    discount:50
+    discount:69.19
 },
 {   
     image:"shirt.jpg",
     name:"TOUPHY Sports Short Sleeve T-Shirt & Shorts Set - 2 Piece - Black",
-    price:600.75,
+    price:60.50,
     seller:"Touphy",
     available:"in stock",
-    discount:50
+    discount:69.19
 }]
 
 
     let parent_box = document.getElementById("parent-box");
-     let child_box = document.createElement("a");
+    let child_box = document.createElement("a");
 
 product.map((eachProduct)=>{
 
@@ -42,7 +42,7 @@ product.map((eachProduct)=>{
                                 <h4>GH₵ ${eachProduct.price}</h4>
                                 <div class="dis">
                                     <s>GH₵ ${eachProduct.discount}</s>
-                                    <p class="discount">${((eachProduct.discount/eachProduct.price)*(100)).toFixed(1)}%</p>
+                                    <p class="discount">${((eachProduct.discount/eachProduct.price)*(100)).toFixed(2)}%</p>
                                 </div>
                                 <form action="">
                                     <input class="reduce-item" type="button" value="-">
@@ -55,6 +55,6 @@ product.map((eachProduct)=>{
                     </div>`
 
                     parent_box.append(child_box)
-                     child_box = document.createElement("a");
+                    child_box = document.createElement("a");
 
 })
