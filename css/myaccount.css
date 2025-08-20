@@ -1,0 +1,51 @@
+.boxC-accountStyle{
+    justify-content: start;
+}
+
+.product-info-column{
+    .head{
+        h2{
+            font-weight: 500;
+            margin-left: 10px;
+            font-size: 16px;
+            
+        }
+    }
+    #spec-container{
+        justify-content: start;
+        column-gap: 30px;
+        #spec-box{
+            width: 350px;
+            row-gap: 0px;
+            
+            h3{
+                font-size: 15px;
+                font-weight: 400;
+                margin-left: 20px;
+                margin-bottom: 7px;
+            }
+            p{
+                font-size: 15px;
+                font-weight: 400;
+                margin-left: 20px;
+                color: grey;
+                margin-bottom: 2px;
+            }
+            a{
+                font-size: 15px;
+                font-weight: 400;
+                margin-left: 20px;
+                color: rgb(26, 121, 230);
+                margin-top: 10px;
+                margin-bottom: 2px;
+            }
+        }
+    }
+}
+.try{
+    .envelope{
+        .my-acc{
+            background-color: black;
+        }
+    }
+}

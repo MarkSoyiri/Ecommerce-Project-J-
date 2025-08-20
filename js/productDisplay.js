@@ -25,34 +25,34 @@ product.map((eachProduct)=>{
   
 
     child_box.innerHTML =  `<div class="envelope">
-                        <span>
-                            <div class="tie">
-                                <img src="/images/${eachProduct.image}" alt="">
-                                <div class="topDown">
-                                    <p>${eachProduct.name}</p>
-                                    <h3>Seller: <b>${eachProduct.seller}</b></h3>
-                                    <h3>${eachProduct.available}</h3>
-                                    <div class="remove">
-                                        <img src="/images/remove.png" alt="">
-                                        <p>Remove</p>
+                                <span>
+                                    <div class="tie">
+                                        <img src="/images/${eachProduct.image}" alt="">
+                                        <div class="topDown">
+                                            <p>${eachProduct.name}</p>
+                                            <h3>Seller: <b>${eachProduct.seller}</b></h3>
+                                            <h3>${eachProduct.available}</h3>
+                                            <div class="remove">
+                                                <img src="/images/remove.png" alt="">
+                                                <p>Remove</p>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="topDown">
-                                <h4>GH₵ ${eachProduct.price}</h4>
-                                <div class="dis">
-                                    <s>GH₵ ${eachProduct.discount}</s>
-                                    <p class="discount">${((eachProduct.discount/eachProduct.price)*(100)).toFixed(2)}%</p>
-                                </div>
-                                <form action="">
-                                    <input class="reduce-item" type="button" value="-">
-                                    <p>1</p>
-                                    <input class="increase-item" type="button" value="+">
-                                </form>
-                            </div>
-                            
-                        </span>
-                    </div>`
+                                    <div class="topDown">
+                                        <h4>GH₵ ${eachProduct.price}</h4>
+                                        <div class="dis">
+                                            <s>GH₵ ${eachProduct.discount}</s>
+                                            <p class="discount">${((eachProduct.discount/eachProduct.price)*(100)).toFixed(2)}%</p>
+                                        </div>
+                                        <form action="">
+                                            <input class="reduce-item" type="button" value="-">
+                                            <p>1</p>
+                                            <input class="increase-item" type="button" value="+">
+                                        </form>
+                                    </div>
+                                    
+                                </span>
+                            </div>`
 
                     parent_box.append(child_box)
                     child_box = document.createElement("a");

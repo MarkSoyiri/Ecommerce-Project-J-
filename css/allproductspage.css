@@ -9,6 +9,7 @@
 }
 .no-total-box{
     box-shadow: none;
+    margin-top: 30px;
 }
 #pp-DandV ul{
     /* border: 1px solid red; */
@@ -126,4 +127,7 @@
     translate: 0px 5px 5px;
     transition: 0.3s;
     cursor: pointer;
+}
+.margin-class{
+    margin-top: 30px;
 }

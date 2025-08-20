@@ -270,7 +270,7 @@ a .product-info-row:hover{
 .info-column #details{
     position: absolute;
     top: 0;
-    right: 0;
+    right: 10px;
     color: rgb(49, 147, 234);
     font-size: 13px;
 }

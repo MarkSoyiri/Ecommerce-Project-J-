@@ -43,14 +43,16 @@ let helpB = document.getElementById("help-button")
 console.log(helpB)
             // ACCOUNT-DROPDOWN MENU
 accountB.addEventListener("click",function(){
+    helpMenu.classList.remove("add-on");
     accountMenu.classList.toggle("show-account-menu");
     // prompt("Don't have an account? sign in")
 })
 
                 // HELP-DROPDOWN MENU
 helpB.addEventListener("click",function(){
+    accountMenu.classList.remove("show-account-menu");
     helpMenu.classList.toggle("add-on");
-    console.log("true")
+    
 })
 // PRODUCT SLIDER
 

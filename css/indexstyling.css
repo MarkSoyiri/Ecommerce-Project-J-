@@ -290,14 +290,13 @@ a .account-box {
 }
 .account-box:hover #replace{
     display: flex;
-   /* opacity: 1; */
     transition: 0.2s; 
 }
 .account-box:hover p{
-    color: rgb(255, 196, 0);
+    color:  rgb(3, 166, 187);
 }
 .account-box:hover #grey{
-    color: rgb(255, 196, 0);
+    color:  rgb(3, 166, 187);
 }
 .box-container{
     /* border: 1px solid red; */
@@ -616,10 +615,11 @@ img.displaySlide{
 
             /* SECTION2 END */
 
+            /* FOOTER */
+
 #footer{
-    background-image: linear-gradient(rgb(53, 18, 53),black);
-    height: auto;
-    
+    background-image: linear-gradient(rgb(18, 42, 53),black);
+    height: auto;  
 }
 #footer .box-container{
     column-gap: 60px;
