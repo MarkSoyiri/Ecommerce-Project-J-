@@ -45,9 +45,9 @@ product.map((eachProduct)=>{
                                             <p class="discount">${((eachProduct.discount/eachProduct.price)*(100)).toFixed(2)}%</p>
                                         </div>
                                         <form action="">
-                                            <input class="reduce-item" type="button" value="-">
-                                            <p>1</p>
-                                            <input class="increase-item" type="button" value="+">
+                                            <input class="reduce-item" id="reduce" type="button" value="-">
+                                            <p id="counter">1</p>
+                                            <input class="increase-item" id="increase" type="button" value="+">
                                         </form>
                                     </div>
                                     
@@ -58,3 +58,20 @@ product.map((eachProduct)=>{
                     child_box = document.createElement("a");
 
 })
+
+let plus = document.getElementById("increase");
+let minus = document.getElementById("reduce");
+let counter = document.getElementById("counter");
+let count = 0;
+
+plus.onclick = function(){
+    count++;
+    counter.textContent = count;
+}
+minus.onclick = function(){
+    if(count !== 1){
+        count--;
+        counter.textContent = count;    
+    }
+   
+}
