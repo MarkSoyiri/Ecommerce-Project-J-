@@ -69,7 +69,7 @@ plus.onclick = function(){
     counter.textContent = count;
 }
 minus.onclick = function(){
-    if(count !== 1){
+    if(count !== 0){
         count--;
         counter.textContent = count;    
     }
