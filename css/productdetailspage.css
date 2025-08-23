@@ -23,7 +23,7 @@
 }
 .product-pic-box{
     padding-bottom: 10px;
-    border-bottom: 1px solid rgb(190, 188, 188);
+    border-bottom: 1px solid rgb(228, 226, 226);
 }
 .product-preview .product-pic-box img{
     width: 100%;
@@ -107,7 +107,7 @@
     flex-direction: column;
     row-gap: 5px;
     padding-bottom: 15px;
-    border-bottom: 1px solid rgb(183, 181, 181);
+    border-bottom: 1px solid rgb(224, 222, 222);
 }
 .product-info-column h3{
     font-size: 18px;
@@ -392,4 +392,7 @@ a .product-info-row:hover{
 .specific{
     display: flex;
     flex-wrap: wrap;
+}
+.border-bottom{
+    border-bottom: 1px solid rgb(227, 224, 224);
 }
